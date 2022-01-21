@@ -41,8 +41,9 @@ class ErrorHandler implements Exception {
 
       case DioErrorType.response:
         switch (error.response?.statusCode) {
-          case ResponseCode.badRequest:1
+          case ResponseCode.badRequest:
         }
+        break;
         
       case DioErrorType.cancel:
         return DataSource.cancel.getFailure();
@@ -101,7 +102,7 @@ class ResponseMessage {
       "Please check your internet connection";
 }
 
-extension DataSourceExtension on DataSource {
+extension DataSourceExtension on DataSource? {
   Failure? getFailure() {
     switch (this) {
       case DataSource.badRequest:

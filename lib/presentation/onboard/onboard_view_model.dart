@@ -70,7 +70,9 @@ class OnboardViewModel extends BaseViewModel
 
 abstract class OnboardViewModelInput {
   int next();
+
   int previous();
+
   onPageChanged(int index);
 
   Sink get input;

@@ -9,9 +9,9 @@ abstract class Api {
 
   @POST('/customer/login')
   Future<AuthenticationResponse> login({
-    @Field('email') String email,
-    @Field('password') String password,
-    @Field('imei') String imei,
-    @Field('deviceType') String deviceType,
+    @Field('email') required String email,
+    @Field('password')required String password,
+    @Field('imei')required String imei,
+    @Field('deviceType')required String deviceType,
   });
 }

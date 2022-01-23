@@ -6,4 +6,5 @@ class ImageAssets {
   static const String onBoardingImage2 = '$imagePath/onboarding_logo2.svg';
   static const String onBoardingImage3 = '$imagePath/onboarding_logo3.svg';
   static const String onBoardingImage4 = '$imagePath/onboarding_logo4.svg';
+  static const String icLogin = '$imagePath/ic_login.svg';
 }

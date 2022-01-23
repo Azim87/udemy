@@ -2,7 +2,7 @@ import 'package:udemy/data/mapper/mapper.dart';
 import 'package:udemy/data/network/api_internal_status.dart';
 import 'package:udemy/data/network/error_handler.dart';
 import 'package:udemy/data/network/network_checker.dart';
-import 'package:udemy/data/remoute/remoute_data_source.dart';
+import 'package:udemy/data/remote/remoute_data_source.dart';
 import 'package:udemy/data/request/request.dart';
 import 'package:udemy/data/network/failure.dart';
 import 'package:dartz/dartz.dart';
